@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.resources    = "NUI/Resources/*.png", "NUI/**/*.nss"
   s.requires_arc = true
   s.frameworks   = [ "UIKit", "CoreGraphics","QuartzCore", "CoreImage" ]
+  s.dependency   = 'Parcoa'
 end
